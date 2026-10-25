@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f7d5b">
+<meta name="description" content="청소년상담복지센터 상담자를 위한 보호자 전화상담 음성 연습 어플">
+<title>보호자 전화상담 연습실</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="errorBanner" role="alert"></div>
+<div class="wrap">
+  <main id="app" aria-live="polite"></main>
+  <footer>가상 사례 연습 어플 · 점수는 참고용이며 공식 평가 결과가 아닙니다 · 기록은 이 휴대폰에만 저장됩니다</footer>
+</div>
+<div id="modalRoot"></div>
+<noscript>이 어플은 자바스크립트가 필요해요. 크롬에서 열어 주세요.</noscript>
+<script src="js/data.js"></script>
+<script src="js/personas.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

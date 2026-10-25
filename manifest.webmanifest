@@ -1,0 +1,17 @@
+{
+  "name": "보호자 전화상담 연습실",
+  "short_name": "전화상담연습",
+  "description": "청소년상담복지센터 상담자를 위한 보호자 전화상담 음성 연습",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f7f6",
+  "theme_color": "#2f7d5b",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
