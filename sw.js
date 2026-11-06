@@ -1,6 +1,6 @@
 /* 설치형 웹앱: 화면 파일을 휴대폰에 보관해 인터넷이 끊겨도 열리게 한다.
    AI 서버 요청은 보관하지 않는다. 파일을 고치면 VERSION 숫자를 올린다. */
-const VERSION = 'pcs-v1';
+const VERSION = 'pcs-v2';   // v2: 음성 인식 중복 수정
 const FILES = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './js/data.js', './js/personas.js', './js/storage.js', './js/speech.js', './js/ai.js', './js/app.js',
