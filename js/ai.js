@@ -4,8 +4,8 @@
 
 const AI_MODELS = [
   { id: 'gemini-3.8-flash', label: 'gemini-3.8-flash (최신·추천)' },
-  { id: 'gemini-2.5-flash', label: 'gemini-2.5-flash (한도가 부족할 때)' },
-  { id: 'gemini-2.5-flash-lite', label: 'gemini-2.5-flash-lite (가장 가벼움)' }
+{ id: 'gemini-3.6-flash', label: 'gemini-3.6-flash (느리거나 한도가 부족할 때)' },
+  { id: 'gemini-3.5-flash-lite', label: 'gemini-3.5-flash-lite (가장 가벼움·빠름)' }
 ];
 
 class AIError extends Error {
@@ -13,7 +13,7 @@ class AIError extends Error {
 }
 
 const AI = {
-  timeoutMs: 40000,
+  timeoutMs: 90000,
 
   async call({ key, model, system, contents, json }) {
     if (!key) throw new AIError('API 키가 없어요. ⚙설정에서 API 키를 입력해 주세요.', 'nokey');
